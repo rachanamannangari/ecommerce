@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="commercesuite" duration-ms="32451" started-at="2019-08-29T16:49:18Z" finished-at="2019-08-29T16:49:50Z">
+    <groups>
+    </groups>
+    <test name="commercetestChrome" duration-ms="14117" started-at="2019-08-29T16:49:18Z" finished-at="2019-08-29T16:49:32Z">
+      <class name="com.nopcommerce.testCases.Tc_001_login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.Tc_001_login@57829d67]" name="setup" is-config="true" duration-ms="6105" started-at="2019-08-29T16:49:19Z" finished-at="2019-08-29T16:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.nopcommerce.testCases.Tc_001_login@57829d67]" name="login" duration-ms="3670" started-at="2019-08-29T16:49:25Z" finished-at="2019-08-29T16:49:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.nopcommerce.testCases.Tc_001_login@57829d67]" name="closeBrowser" is-config="true" duration-ms="2936" started-at="2019-08-29T16:49:29Z" finished-at="2019-08-29T16:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.nopcommerce.testCases.Tc_001_login -->
+    </test> <!-- commercetestChrome -->
+    <test name="commercetestFirefox" duration-ms="17710" started-at="2019-08-29T16:49:32Z" finished-at="2019-08-29T16:49:50Z">
+      <class name="com.nopcommerce.testCases.Tc_001_login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.Tc_001_login@668bc3d5]" name="setup" is-config="true" duration-ms="10285" started-at="2019-08-29T16:49:32Z" finished-at="2019-08-29T16:49:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.nopcommerce.testCases.Tc_001_login@668bc3d5]" name="login" duration-ms="5431" started-at="2019-08-29T16:49:43Z" finished-at="2019-08-29T16:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.nopcommerce.testCases.Tc_001_login@668bc3d5]" name="closeBrowser" is-config="true" duration-ms="1986" started-at="2019-08-29T16:49:48Z" finished-at="2019-08-29T16:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.nopcommerce.testCases.Tc_001_login -->
+    </test> <!-- commercetestFirefox -->
+  </suite> <!-- commercesuite -->
+</testng-results>

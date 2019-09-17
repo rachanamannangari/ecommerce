@@ -1,0 +1,5 @@
+com\nopcommerce\testCases\Tc_001_login.class
+com\nopcommerce\testCases\Baseclass.class
+com\nopcommerce\utilities\Reporting.class
+com\nopcommerce\pageobjects\Loginpage.class
+com\nopcommerce\utilities\Readconfig.class
